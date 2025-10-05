@@ -3,12 +3,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
+  background-color: #a6d1a9;
 }
 
 /* Header Styling */
 header {
-  background-color: #4b7bec;
+  background-color: #66c066;
   color: white;
   text-align: center;
   padding: 20px;
@@ -42,7 +42,7 @@ p.intro {
 }
 
 p.highlight {
-  color: #e84118;
+  color: #20c250;
   font-family: 'Courier New', monospace;
   font-weight: bold;
 }
@@ -56,10 +56,10 @@ ul {
 
 /* Image Styling */
 img {
-  border: 3px solid #4b7bec;
+  border: 3px solid #258f33;
   border-radius: 10px;
-  margin-top: 20px; /* Layout Rule 3: Margin */
-  width: 300px;
+  margin-top: 5px; /* Layout Rule 3: Margin */
+  width: 100px;
 }
 
 /* Footer Styling */
