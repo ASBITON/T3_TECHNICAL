@@ -1,0 +1,71 @@
+/* Basic Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+/* Header Styling */
+header {
+  background-color: #4b7bec;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main Layout */
+main {
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  /* Layout Rule 1: Flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Text Styles */
+h2 {
+  color: #1e272e;
+  font-family: 'Georgia', serif;
+}
+
+p.intro {
+  color: #2f3640;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p.highlight {
+  color: #e84118;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+/* List Styling */
+ul {
+  list-style-type: circle;
+  padding-left: 40px; /* Layout Rule 2: Padding */
+  line-height: 1.8;
+}
+
+/* Image Styling */
+img {
+  border: 3px solid #4b7bec;
+  border-radius: 10px;
+  margin-top: 20px; /* Layout Rule 3: Margin */
+  width: 300px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #dcdde1;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
