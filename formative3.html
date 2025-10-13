@@ -1,99 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Webpage!</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <title>Wynne's Art Portfolio</title>
+
 </head>
 <body>
-
-  <!-- Header -->
-  <header style="text-align: center; color: rgb(118, 199, 134);
-  -webkit-text-stroke: 1px rgb(24, 77, 17);">
-
-    <h1>Welcome to Maelene's Webpage!</h1>
-    <nav>
-      <a href="#about">About Me</a> |
-      <a href="#whatido">What I Do</a> |
-      <a href="#contacts">Contacts</a> |
-      <a href="#commissions">Commissions</a>
-    </nav>
-  </header>
-
-  <!-- Main Content -->
-  <main>
-    <section id="about">
-        <img src="https://static.wixstatic.com/media/e6f56d_a2b47380e8504300bfb2844e4a8a5159~mv2.gif" alt="banana dancing" width="100" height="100">
-      <h2>About Me! :3</h2>
-      <p>Hello! My name is Adlene Mae SG Biton, or you can call me Mae or Maelene. And i am here to show or tell some stuff about me!</p>
-    </section>
-
-    <section id="whatido">
-      <h2>What i do! :D</h2>
-      <ul>
-        <li>Digital Illustrations</li>
-        <li>Traditional Arts</li>
-        <li>Digital Commissions</li>
-      </ul>
-    </section>
-
-    <section id="Commissions">
-      <h2>Commissions! :D</h2>
-      <p>But first "What is an Art Commission?" According to Google, An art commission is a request made by a client for an artist to create a specific piece of artwork tailored to the client's needs.</p>
-      <h2>Prices!</h2>
-      <p>Here are the prices for my commissions! (In case you want to buy one)</p>
-      <table border="1">
-      <tr>
-          <td>Half Body</td>
-          <td>20USD/500PHP</td>
-        </tr>
-       <tr>
-        <td>Bust Up</td>
-        <td>12USD/300PHP</td>
-       </tr>
-       <tr>
-        <td>Couple Sketches</td>
-        <td>2USD/150PHP</td>
-       </tr>
+    <div class="container">
+        <header>
+            <h1>Welcome to Wynne's Art Portfolio</h1>
+        </header>
+        <main>
+            <section class="left">
+        <ul class="nav" style="list-style-type: none;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="abtme.html">About</a></li>
+        <li><a href="socials.html">Contacts</a></li>
+        <li><a href="artworks.html">Artworks</a></li>
+        </ul>
+            </section>
+            <section class="mid">
+          <h1 style="text-align: center; color: #6B3F69; padding-bottom: 15px";>ABOUT THE ARTIST</h1>
+          <div class="image">
+            <img src="wynne.jpeg" alt="wynne" style="float: left; border: 8px solid #6B3F69; border-radius: 12px; margin: 0px 30px 50px 30px; width: 300px; height: 400px;">
+            </div>
+           <article>
+                <h2 style="text-align: left; color: #8D5F8C;">Edwynne Raschieka H. Janda</h2>
+                <pre style="text-align: left; padding-top: 2px; padding-bottom: 3px; color: 
+                 #A376A2;">any pronouns + scorpio + enfj</pre>
+                <hr>
+                <p style="text-align: justify; text-indent: 30px; padding: 5px 10px 5px 10px;">I'm a 2nd year Bachelor of Multimedia Arts student in FEU-TECH. My current specialization in Multimedia Arts are traditional and digital illustration, photography, and graphic design. 
+                  I am highly interested in creating cutesy designs since this highly matches my personality as an artist. 
+                  I see myself as a creative, approachable, and curious artist who enjoys the creative process of art.</p>
+                 <h2 style="text-align: left; color: #8D5F8C; padding-top: 10px;">Interests</h2>
+                 <p style="text-align: justify; text-indent: 30px; padding: 5px 10px 5px 10px;">Anime/Manga, food, music (K-POP, OPM, POP songs, etc.), literature, and games (Valorant, Genshin, Omori, etc.)</p>
+                    </article>
+            </section>
+            <section class="right">
+                <h2 style="text-align: center; color: #6B3F69; padding-bottom: 15px">Experiences</h2>
+            <table style="width:40%">
+            <tr>
+              <th>Creatives Commitee</th>
+              <th>Freelance Graphic Artist</th>
+      
+            </tr>
+            <tr style="text-align: center;">
+                <td>TBTV/TambayanTV</td>
+                <td>Illustrating for Family Business</td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>2024 - 2025</td>
+                <td>2016 - Present</td>
+            </tr>
         </table>
-
-        <h2>I Can Draw:</h2>
-      <ul>
-        <li>Original Characters</li>
-        <li>Real People</li>
-        <li>Couples</li>
-      </ul>
-
-      <h2>I Can't Draw:</h2>
-      <ul>
-        <li>Anything that has animal parts...</li>
-      </ul>
-      </section>
-
-    <section id="contacts">
-      <h2>Contacts</h2>
-      <p>You can contact me here:</p>
-      <table border="1">
-        <tr>
-          <th>Socials</th>
-          <th>Details</th>
-        </tr>
-        <tr>
-          <td>Personal Email</td>
-          <td><a href="mailto:adlenemaebiton09@gmail.com">adlenemaebiton09@gmail.com</a></td>
-        </tr>
-        <tr>
-          <td>IG Art Account</td>
-          <td><a href="https://www.instagram.com/mae.lene__?igsh=eWY5eGQxYXRrNmxu">mae.lene__</a></td>
-        </tr>
-      </table>
-    </section>
-  </main>
-
-  <!-- Footer -->
-    <footer>
-  <p>&copy; 2025 My Portfolio</p>
-</footer>
+        <h2 style="text-align: center; color: #6B3F69; padding-bottom: 15px; padding-top: 15px;">Education</h2>
+            <table style="width:40%;">
+            <tr>
+              <th>Philippine Women's Univeristy - JASMS</th>
+              <th>FEU - Institute of Technology</th>
+      
+            </tr>
+            <tr style="text-align: center;">
+                <td>Senior High School</td>
+                <td>Bachelor of Multimedia Arts</td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>2022 - 2024</td>
+                <td>2024 - Present</td>
+            </tr>
+        </table>
+            </section>
+        </main>
+        <footer>
+            <b><i>&copy; 2025 Wynne's Art Portfolio</i></b>
+        </footer>
+    </div>
 </body>
 </html>
-
